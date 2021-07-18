@@ -22,4 +22,16 @@ This model have constraint of length of audio
 From all the models and libraries I have applied I found transformers model is best model out of all the models.
 
 
+# Phase 3 of project
+Summarizing of the text.
+1. Skipthoughts unsupervised learning model
+Read and applied skipthoughts model for summarizing the text. It is based on extractive mechanism.
+Input of different text were given and output of the summary was generated.
+This model just gives the lines which is nearer to the summary but doesnot give word or line of its own.
+2. Seq2Seq model
+Read and applied seq2seq model for summarizing the text. It is based on abstractive mechanism.
+This model was trained on the news summary and gave output in one line as a headline of the news.
+Summary was not matching the real summary and more fine tuning needed to be done in this model.
+
+
 
